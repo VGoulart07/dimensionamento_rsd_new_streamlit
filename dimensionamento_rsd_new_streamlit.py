@@ -25,7 +25,7 @@ st.title("Dimensionamento de RSD e Controladora de Dados")
 # ---------------------------
 # Datasheet + Logo Advansol
 # ---------------------------
-pdf_path = "assets/【PT】V3.1 datasheet20250812.pdf"
+pdf_path = "assets/datasheet20250812.pdf"
 col1, col2 = st.columns([1,1])
 with col1:
     if os.path.exists(pdf_path):
